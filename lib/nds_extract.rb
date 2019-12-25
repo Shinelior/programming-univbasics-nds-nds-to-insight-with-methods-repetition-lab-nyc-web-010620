@@ -39,7 +39,7 @@ end
 def total_gross(source)
   #source={}
   director_index = 0
-  source=directors_totals(directors_database)
+ # source=directors_totals(directors_database)
  while  director_index<source.size do
   #source=directors_totals(directors_database)
    director = source[director_index]
