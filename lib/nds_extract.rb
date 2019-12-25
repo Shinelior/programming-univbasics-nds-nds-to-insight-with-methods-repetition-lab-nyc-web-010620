@@ -44,7 +44,7 @@ def total_gross(source)
  while  director_index<source.size do
   #source=directors_totals(directors_database)
    director = source[director_index]
-  total_gross+=source[director_index][:name]
+  total_gross+=gross_for_director(director)
   #puts total_gross
   director_index+=1 
 end
